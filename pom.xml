@@ -10,13 +10,13 @@
 
     <repositories>
         <repository>
-            <id>rc-libs-snapshot-local</id>
-            <url>http://repo.inversionesrc.com/artifactory/libs-snapshot-local</url>
+            <id>repsy</id>
+            <url>https://repo.repsy.io/mvn/inversionesrc/repo</url>
         </repository>
         <!-- Required only for 'com.microsoft.sqlserver:sqljdbc4'. -->
         <repository>
             <id>clojars</id>
-            <url>http://clojars.org/repo/</url>
+            <url>https://repo.clojars.org</url>
         </repository>
     </repositories>
 

@@ -23,7 +23,7 @@ abstract class DemoBase {
     static Connection getConnection()  {
         try {
             // TODO try to use Windows authentication without requiring the user to configure any additional DLL. Try with the alternative JDBC driver for SQL Server.
-            return DriverManager.getConnection("jdbc:sqlserver://localhost:1433;databaseName=DatabaseIntegrityProtectionDemo", "sa", "sql");
+            return DriverManager.getConnection("jdbc:sqlserver://localhost:1433;databaseName=DatabaseIntegrityProtectionDemo", "sa", "sqlserver");
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
